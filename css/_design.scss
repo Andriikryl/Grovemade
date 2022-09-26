@@ -1,0 +1,70 @@
+.design__box-btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+    background-color: transparent;
+}
+
+
+.design{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 58px;
+        text-align: center;
+        color: #000000;
+        padding-block-end: 23px;
+    }
+    .design__info{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+        padding-block-end: 26px;
+    }
+    .design__box{
+        display: flex;
+        justify-content: center;
+        padding-block-end: 81px;
+    }
+    .design__content{
+        display: flex;
+        gap: 22px;
+        flex-wrap: wrap;
+        .design__card{
+            .design__card-img{
+                max-width: 658px;
+                padding-block-end: 51px;
+            }
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 27px;
+                line-height: 30px;
+                text-align: center;
+                color: #000000;
+                padding-block-end: 23px;
+            }
+            .design__card-btn{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

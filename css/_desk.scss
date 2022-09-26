@@ -1,0 +1,47 @@
+.desk{
+    background-image: url(../images/desk/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-block: 193px;
+    h1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+
+        font-size: clamp(20px, 5vw - 1rem, 43px);
+
+        line-height: 46px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-block-end: 16px;
+    }
+    p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #FFFFFF;
+        padding-block-end: 28px;
+    }
+    .desk__btn{
+        display: flex;
+        justify-content: center;
+        .desk__btn-inner{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            border: none;
+            background-color: transparent;
+        }
+    }
+}

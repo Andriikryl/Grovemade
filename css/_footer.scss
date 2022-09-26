@@ -1,0 +1,38 @@
+.footer__content{
+    padding-bottom: 100px;
+    display: flex;
+    gap: 22px;
+    .footer-nav__list{
+        >*+*{
+            margin-top: 16px;
+        }
+        a{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 24px;
+            color: #000000;            
+        }
+    }
+    .footer__info{
+        .footer__info-titel{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 24px;
+            color: #000000;        
+            padding-block-end: 23px;    
+        }
+        .foote__info-text{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.8px;
+            color: #A0A0A0;            
+        }
+    }
+}

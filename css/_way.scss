@@ -1,0 +1,29 @@
+.way{
+    padding-block-start: 116px;
+    padding-block-end: 42px;
+    h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+        padding-block-end: 23px;
+    }
+    p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #A0A0A0;
+        padding-block-end: 23px;
+    }
+    .way__box{
+        display: flex;
+        justify-content: center;
+    }
+}

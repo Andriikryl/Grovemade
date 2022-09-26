@@ -1,0 +1,22 @@
+.container{
+    $max-width: 1365px;
+    $padding: 2rem;
+    width: min($max-width, 100% - $padding);
+    margin-inline: auto;
+}
+
+$index: calc(1vw + 1vh);
+
+.head-btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000; 
+    border: none;
+    background-color: transparent;     
+    cursor: pointer;          
+}

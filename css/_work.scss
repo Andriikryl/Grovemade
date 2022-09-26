@@ -1,0 +1,64 @@
+.work{
+    padding-block-end: 121px;
+}
+
+.work__titel{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    padding-block-end: 23px;
+}
+
+.work__text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;    
+    padding-block-end: 80px;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(203px, 1fr));
+    gap: 24px;
+    padding-block-end: 50px;
+}
+
+.products-grid__item{
+    margin: auto;
+}
+
+
+.work__btn{
+    display: flex;
+    justify-content: center;
+    .show-more{
+        border: none;
+        background-color: transparent;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color:  black;
+    }
+}
+
+
+
+.products-grid__item:nth-child(n + 7) {
+	display: none;
+}
+
+.products-grid__item.is-visible {
+	display: block;
+}
